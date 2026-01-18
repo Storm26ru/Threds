@@ -18,7 +18,6 @@ public class Main {
 
     static public void main(String[] args){
         try (Scanner scanner = new Scanner(System.in);
-             //
              ExecutorService executorService = Executors.newFixedThreadPool(4)) {
                 ArrayUser arrayUser = new ArrayUser(scanner);
                 System.out.println("Задание 1");
